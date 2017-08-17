@@ -1,0 +1,10 @@
+{
+  "nodes": {
+    "puppet4.example.com": {
+      ":ip": "192.168.32.5",
+      "ports": [],
+      ":memory": 3096,
+      ":bootstrap": "bootstrap-master.sh"
+    }
+  }
+}
