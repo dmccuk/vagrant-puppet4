@@ -1,6 +1,6 @@
 Vagrant Puppet Master 4.0
 ==========================
-This is the configuration file for my Udemy course to create a puppet master v4.0 in Vagrant.
+This is the configuration file for puppet master v4.0 in Vagrant.
 
 Credits:
 --------

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Run on VM to bootstrap Puppet Master 4.0 server
 
@@ -10,9 +10,7 @@
     sudo apt-get install -yq puppetserver
 
     # setup autosign for our nodes
-    cat > /etc/puppetlabs/puppet <<EOF
-    *.example.com
-    EOF
+    echo "*.example.com" | sudo tee /etc/puppetlabs/puppet/autosign.conf 
 
     # open the FW port 8140
     sudo ufw allow 8140
@@ -20,3 +18,5 @@
     # start and enable puppet
     sudo systemctl start puppetserver
     sudo systemctl enable puppetserver 
+    sudo systemctl status puppetserver
+    exit 0

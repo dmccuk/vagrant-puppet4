@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/dmccuk/Downloads/vagrant-puppet4-master","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/vagrant":{"type":"virtualbox","guestpath":"/vagrant","hostpath":"/home/dmccuk/vagrant-puppet4","disabled":false,"__vagrantfile":true}}}
